@@ -1,7 +1,9 @@
 #  ##   ###
 #  Import LIBRARIES
 from typing import Literal
+from enum import IntEnum
 from fastapi import FastAPI
+from pydantic import BaseModel, Field
 #  Import FILES
 #  ##   ###
 
